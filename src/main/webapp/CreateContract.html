@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+</head>
+<body>
+
+<h1>Oppgave java</h1>
+
+<form action="rest/contract/create" method="post">
+	<p>Name : <input type="text" name="name" /></p>
+	<p>Age : <input type="text" name="age" /></p>
+	<p>National identity: <input type="text" name="nationalId" /></p>
+	<p>Address: <input type="text" name="address" /></p>
+	<p>Zip-code: <input type="text" name="zipCode" /></p>
+	<p>Mobile phone: <input type="text" name="mobilePhone" /></p>
+	<p>E-mail: <input type="text" name="eMail" /></p>
+	<p>Contract: 
+	<select name="contract" >
+	  <option value="Car insurence">Insurence: Car</option>
+	  <option value="Boat insurence">Insurence: boat</option>
+	</select>
+	</p>
+	<input type="submit" value="Create contract"/> 
+</form>
+
+</body>
+</html>
